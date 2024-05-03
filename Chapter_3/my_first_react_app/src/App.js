@@ -19,8 +19,8 @@ class App extends Component {
         <Rating rating="3"/>
         <Rating rating="4"/>
         <Rating rating="5"/>
-        <Button variant="outline-success" disabled={!isValid}>
-          Default
+        <Button variant="outline-info" disabled={!isValid}>
+          Click Me!
         </Button>
       </div>
     );
